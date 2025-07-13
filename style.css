@@ -1,0 +1,36 @@
+body {
+  background: #000;
+  color: #00ffee;
+  font-family: 'Courier New', monospace;
+  padding: 2em;
+}
+h1 {
+  color: #ff0055;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+input {
+  padding: 0.5em;
+  width: 90%;
+  font-size: 1em;
+  margin-bottom: 1em;
+  background: #111;
+  color: #0f0;
+  border: 1px solid #333;
+}
+button {
+  padding: 1em;
+  background: #ff0055;
+  color: white;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+#log {
+  background: #111;
+  padding: 1em;
+  border: 1px dashed #00ffee;
+  max-height: 300px;
+  overflow-y: auto;
+}
